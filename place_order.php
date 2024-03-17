@@ -7,6 +7,7 @@ $user_id = 1
 $sql = "INSERT INTO orders (user_id) VALUES ($user_id)";
 if ($conn->query($sql) === TRUE) {
     $order_id = $conn->insert_id;
+    1
 
     // Example: Add products to the order
     $product_id_1 = 1;
