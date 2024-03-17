@@ -2,8 +2,7 @@
 include 'config.php';
 
 //  user is logged in, and you have their user_id
-$user_id = 1;
-
+$user_id = 1
 // Example: Add a new order
 $sql = "INSERT INTO orders (user_id) VALUES ($user_id)";
 if ($conn->query($sql) === TRUE) {
